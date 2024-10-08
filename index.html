@@ -1,0 +1,67 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Guides</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.js"></script>
+</head>
+<body>
+    <div id="map"></div>
+    <div id="searchContainer">
+        <input type="text" id="searchBox" placeholder="Search for a location" />
+        <button id="searchButton">Search</button>
+    </div>
+    <div id="optionsContainer">
+        <button class="optionButton">🍽️ Restaurants</button>
+        <button class="optionButton">🏨 Hotels</button>
+        <button class="optionButton">📸 Things to do</button>
+        <button class="optionButton">🏛️ Museums</button>
+        <button class="optionButton">🚍 Transit</button>
+        <button class="optionButton">💊 Pharmacies</button>
+        <button class="optionButton">🏧 ATMs</button>
+    </div>
+
+    <div id="suggestionsPanel" class="suggestions-panel" style="display: none;">
+        <ul id="suggestions" class="suggestions-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Map with Distance Search</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.js"></script>
+</head>
+<body>
+    <div id="map"></div>
+    <div id="searchContainer">
+        <input type="text" id="searchBox" placeholder="Search for a location" />
+        <input type="text" id="searchBox2" placeholder="Enter second location for distance" style="display: none;" />
+        <button id="searchButton">Search</button>
+        <button id="toggleDistanceButton">🔄 Distance Mode</button>
+    </div>
+    <div id="optionsContainer">
+        <button class="optionButton">🍽️ Restaurants</button>
+        <button class="optionButton">🏨 Hotels</button>
+        <button class="optionButton">📸 Things to do</button>
+        <button class="optionButton">🏛️ Museums</button>
+        <button class="optionButton">🚍 Transit</button>
+        <button class="optionButton">💊 Pharmacies</button>
+        <button class="optionButton">🏧 ATMs</button>
+    </div>
+
+    <div id="suggestionsPanel" class="suggestions-panel" style="display: none;">
+        <ul id="suggestions" class="suggestions-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
